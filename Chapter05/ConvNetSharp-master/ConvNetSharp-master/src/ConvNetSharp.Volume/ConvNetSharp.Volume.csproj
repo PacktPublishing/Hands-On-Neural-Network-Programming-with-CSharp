@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard1.4;net45;net46</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>0.4.9-alpha</Version>
+    <FileVersion>0.4.9.0</FileVersion>
+    <Authors>Cedric Bovar</Authors>
+    <Description>Deep learning in C#</Description>
+    <Copyright>Copyright (c) 2018</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Cognitio.ConvNetSharp.Volume</PackageId>
+    <PackageVersion>0.4.9-alpha</PackageVersion>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>Deep Learning Convolution</PackageTags>
+    <PackageLicenseUrl>https://github.com/cbovar/ConvNetSharp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cbovar/ConvNetSharp</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReleaseNotes>https://github.com/cbovar/ConvNetSharp/releases/tag/v0.4.9</PackageReleaseNotes>
+    <AssemblyVersion>0.4.9.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
