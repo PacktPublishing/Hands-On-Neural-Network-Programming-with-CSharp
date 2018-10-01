@@ -1,0 +1,11 @@
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\obj\Debug\NN.csproj.CoreCompileInputs.cache
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\bin\Debug\NN.dll
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\bin\Debug\NN.pdb
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\bin\Debug\Colorful.Console.dll
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\bin\Debug\Ensure.That.dll
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\bin\Debug\Newtonsoft.Json.dll
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\bin\Debug\Ensure.That.xml
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\bin\Debug\Newtonsoft.Json.xml
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\obj\Debug\NN.csproj.CopyComplete
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\obj\Debug\NN.dll
+C:\Development\AI\Neural-Network-master\NeuralNetwork\NN\obj\Debug\NN.pdb

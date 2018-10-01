@@ -1,0 +1,29 @@
+﻿<RecentlyViewedMethods>
+  <RecentlyViewedMethods>
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.SetNumOutputParameters%28System.Int32%29" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.SetNumInputParameters%28System.Int32%29" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.GetTrainingDataFromUser" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.TrainNetwork" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.ImportNetwork" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.ImportDatasets%28System.String%29" />
+    <RecentMethod id="c55dc683-f1ea-4666-84b0-7b59028dfcb4%28Example1%29-7491591A%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.Program.Main%28System.String%5B%5D%29" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.ExportDatasets" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.ExportNetwork" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NetworkModels.Network.Train%28System.Collections.Generic.List%7BNeuralNetwork.NetworkModels.NNDataSet%7D%2CSystem.Double%29" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.TrainNetworkToMinimum" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.TrainNetwork" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/P%3ANeuralNetwork.NetworkModels.Neuron.IsCanonical" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NetworkModels.Network.set_CanonicalLayer%28System.Collections.Generic.List%7BNeuralNetwork.NetworkModels.Neuron%7D%29" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.TestNetwork" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.TrainNetworkToMaximum" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.GetTrainingDataFromUser" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.SetupNetwork" />
+    <RecentMethod id="c55dc683-f1ea-4666-84b0-7b59028dfcb4%28Example1%29-7491591A%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.Program.Main%28System.String%5B%5D%29" />
+    <RecentMethod id="c55dc683-f1ea-4666-84b0-7b59028dfcb4%28Example1%29-7491591A%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.Program.Main%28System.String%5B%5D%29" />
+    <RecentMethod id="c55dc683-f1ea-4666-84b0-7b59028dfcb4%28Example1%29-7491591A%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.Program.Main%28System.String%5B%5D%29" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.TestNetwork" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.TrainNetworkToMaximum" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.TrainNetworkToMinimum" />
+    <RecentMethod id="4ab9b32b-dd43-42c7-8daf-8f96391c8808%28NN%29-5513%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ANeuralNetwork.NNManager.GetTrainingDataFromUser" />
+  </RecentlyViewedMethods>
+</RecentlyViewedMethods>

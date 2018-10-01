@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ensure.That</name>
+    </assembly>
+    <members>
+        <member name="T:JetBrains.Annotations.RegexPatternAttribute">
+            <summary>
+            Indicates that parameter is regular expression pattern.
+            </summary>
+        </member>
+        <member name="T:JetBrains.Annotations.NoEnumerationAttribute">
+            <summary>
+            Indicates that IEnumerable, passed as parameter, is not enumerated.
+            </summary>
+        </member>
+        <member name="T:JetBrains.Annotations.NotNullAttribute">
+            <summary>
+            Indicates that the value of the marked element could never be <c>null</c>.
+            </summary>
+            <example><code>
+            [NotNull] object Foo() {
+              return null; // Warning: Possible 'null' assignment
+            }
+            </code></example>
+        </member>
+        <member name="T:JetBrains.Annotations.PureAttribute">
+            <summary>
+            Indicates that a method does not make any observable state changes.
+            The same as <c>System.Diagnostics.Contracts.PureAttribute</c>.
+            </summary>
+            <example><code>
+            [Pure] int Multiply(int x, int y) => x * y;
+            
+            void M() {
+              Multiply(123, 42); // Waring: Return value of pure method is not used
+            }
+            </code></example>
+            <remarks>
+            <c>System.Diagnostics.Contracts.PureAttribute</c> is not available for NETSTANDARD1_1.
+            For consistency, using this version of the attribute for all profiles rather than 
+            just NETSTANDARD1_1.
+            </remarks>
+        </member>
+        <member name="T:JetBrains.Annotations.InvokerParameterNameAttribute">
+            <summary>
+            Indicates that the function argument should be string literal and match one
+            of the parameters of the caller function. For example, ReSharper annotates
+            the parameter of <see cref="T:System.ArgumentNullException"/>.
+            </summary>
+            <example><code>
+            void Foo(string param) {
+              if (param == null)
+                throw new ArgumentNullException("par"); // Warning: Cannot resolve symbol
+            }
+            </code></example>
+        </member>
+        <member name="T:JetBrains.Annotations.ContractAnnotationAttribute">
+            <summary>
+            Describes dependency between method input and output.
+            </summary>
+            <syntax>
+            <p>Function Definition Table syntax:</p>
+            <list>
+            <item>FDT      ::= FDTRow [;FDTRow]*</item>
+            <item>FDTRow   ::= Input =&gt; Output | Output &lt;= Input</item>
+            <item>Input    ::= ParameterName: Value [, Input]*</item>
+            <item>Output   ::= [ParameterName: Value]* {halt|stop|void|nothing|Value}</item>
+            <item>Value    ::= true | false | null | notnull | canbenull</item>
+            </list>
+            If method has single input parameter, it's name could be omitted.<br/>
+            Using <c>halt</c> (or <c>void</c>/<c>nothing</c>, which is the same) for method output
+            means that the methos doesn't return normally (throws or terminates the process).<br/>
+            Value <c>canbenull</c> is only applicable for output parameters.<br/>
+            You can use multiple <c>[ContractAnnotation]</c> for each FDT row, or use single attribute
+            with rows separated by semicolon. There is no notion of order rows, all rows are checked
+            for applicability and applied per each program state tracked by R# analysis.<br/>
+            </syntax>
+            <examples><list>
+            <item><code>
+            [ContractAnnotation("=&gt; halt")]
+            public void TerminationMethod()
+            </code></item>
+            <item><code>
+            [ContractAnnotation("halt &lt;= condition: false")]
+            public void Assert(bool condition, string text) // regular assertion method
+            </code></item>
+            <item><code>
+            [ContractAnnotation("s:null =&gt; true")]
+            public bool IsNullOrEmpty(string s) // string.IsNullOrEmpty()
+            </code></item>
+            <item><code>
+            // A method that returns null if the parameter is null,
+            // and not null if the parameter is not null
+            [ContractAnnotation("null =&gt; null; notnull =&gt; notnull")]
+            public object Transform(object data) 
+            </code></item>
+            <item><code>
+            [ContractAnnotation("=&gt; true, result: notnull; =&gt; false, result: null")]
+            public bool TryParse(string s, out Person result)
+            </code></item>
+            </list></examples>
+        </member>
+        <member name="T:JetBrains.Annotations.InstantHandleAttribute">
+            <summary>
+            Tells code analysis engine if the parameter is completely handled when the invoked method is on stack.
+            If the parameter is a delegate, indicates that delegate is executed while the method is executed.
+            If the parameter is an enumerable, indicates that it is enumerated while the method is executed.
+            </summary>
+        </member>
+        <member name="T:EnsureThat.Enforcers.EnumerableArg">
+            <summary>
+            Ensures for <see cref="T:System.Collections.Generic.IEnumerable`1"/>.
+            </summary>
+            <remarks>MULTIPLE ENUMERATION OF PASSED ENUMERABLE IS POSSIBLE.</remarks>
+        </member>
+        <member name="P:EnsureThat.Ensure.Any">
+            <summary>
+            Ensures for objects.
+            </summary>
+        </member>
+        <member name="P:EnsureThat.Ensure.Bool">
+            <summary>
+            Ensures for booleans.
+            </summary>
+        </member>
+        <member name="P:EnsureThat.Ensure.Enumerable">
+            <summary>
+            Ensures for enumerables.
+            </summary>
+            <remarks>MULTIPLE ENUMERATION OF PASSED ENUMERABLE IS POSSIBLE.</remarks>
+        </member>
+        <member name="P:EnsureThat.Ensure.Collection">
+            <summary>
+            Ensures for collections.
+            </summary>
+        </member>
+        <member name="P:EnsureThat.Ensure.Comparable">
+            <summary>
+            Ensures for comparables.
+            </summary>
+        </member>
+        <member name="P:EnsureThat.Ensure.Guid">
+            <summary>
+            Ensures for guids.
+            </summary>
+        </member>
+        <member name="P:EnsureThat.Ensure.String">
+            <summary>
+            Ensures for strings.
+            </summary>
+        </member>
+        <member name="P:EnsureThat.Ensure.Type">
+            <summary>
+            Ensures for types.
+            </summary>
+        </member>
+        <member name="M:EnsureThat.Ensure.That``1(``0,System.String,EnsureThat.OptsFn)">
+            <summary>
+            Ensures via discoverable API. Please note that an extra wrapping object
+            <see cref="T:EnsureThat.Param`1"/> will be created. This can have performance impacts.
+            Use <see cref="T:EnsureThat.EnsureArg"/> or contextual e.g. <see cref="P:EnsureThat.Ensure.String"/>
+            if worried about performance.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value"></param>
+            <param name="name"></param>
+            <param name="optsFn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EnsureThat.Ensure.That(System.String,System.String,EnsureThat.OptsFn)">
+            <summary>
+            Ensures via discoverable API. Please note that an extra wrapping object
+            <see cref="T:EnsureThat.Param`1"/> will be created. This can have performance impacts.
+            Use <see cref="T:EnsureThat.EnsureArg"/> or contextual e.g. <see cref="P:EnsureThat.Ensure.String"/>
+            if worried about performance.
+            </summary>
+            <param name="value"></param>
+            <param name="name"></param>
+            <param name="optsFn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EnsureThat.Ensure.ThatTypeFor``1(``0,System.String,EnsureThat.OptsFn)">
+            <summary>
+            Ensures via discoverable API. Please note that an extra wrapping object
+            <see cref="T:EnsureThat.Param`1"/> will be created. This can have performance impacts.
+            Use <see cref="T:EnsureThat.EnsureArg"/> or contextual e.g. <see cref="P:EnsureThat.Ensure.Type"/>
+            if worried about performance.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value"></param>
+            <param name="name"></param>
+            <param name="optsFn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EnsureThat.Ensure.ThatType(System.Type,System.String,EnsureThat.OptsFn)">
+            <summary>
+            Ensures via discoverable API. Please note that an extra wrapping object
+            <see cref="T:EnsureThat.Param`1"/> will be created. This can have performance impacts.
+            Use <see cref="T:EnsureThat.EnsureArg"/> or contextual e.g. <see cref="P:EnsureThat.Ensure.Type"/>
+            if worried about performance.
+            </summary>
+            <param name="value"></param>
+            <param name="name"></param>
+            <param name="optsFn"></param>
+            <returns></returns>
+        </member>
+        <member name="P:EnsureThat.EnsureOptions.CustomException">
+            <summary>
+            If defined, this exception will be thrown instead of the
+            standard exceptions for the particular ensure method.
+            Assign using <see cref="M:EnsureThat.EnsureOptions.WithException(System.Exception)"/>.
+            </summary>
+        </member>
+        <member name="P:EnsureThat.EnsureOptions.CustomMessage">
+            <summary>
+            If defined, and no <see cref="P:EnsureThat.EnsureOptions.CustomException"/> has been defined,
+            this message will be used instead of the standard message for the
+            particular ensure method.
+            Assign using <see cref="M:EnsureThat.EnsureOptions.WithMessage(System.String)"/>.
+            </summary>
+        </member>
+    </members>
+</doc>

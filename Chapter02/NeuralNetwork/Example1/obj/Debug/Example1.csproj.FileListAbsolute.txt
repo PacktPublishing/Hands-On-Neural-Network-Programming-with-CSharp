@@ -1,0 +1,16 @@
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\obj\Debug\Example1.csproj.CoreCompileInputs.cache
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\DatasetExample.txt
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\Example1.exe.config
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\Example1.exe
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\Example1.pdb
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\Colorful.Console.dll
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\Ensure.That.dll
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\NN.dll
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\Newtonsoft.Json.dll
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\NN.pdb
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\Ensure.That.xml
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\bin\Debug\Newtonsoft.Json.xml
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\obj\Debug\Example1.csproj.CopyComplete
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\obj\Debug\Example1.exe
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\obj\Debug\Example1.pdb
+C:\Development\AI\Neural-Network-master\NeuralNetwork\Example1\obj\Debug\Example1.csprojAssemblyReference.cache

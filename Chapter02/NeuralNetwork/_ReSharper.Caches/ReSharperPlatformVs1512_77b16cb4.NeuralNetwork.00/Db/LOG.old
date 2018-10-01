@@ -1,0 +1,20 @@
+2018/08/13-11:07:44.402 2cbc Recovering log #163
+2018/08/13-11:07:44.462 2cbc Level-0 table #169: started
+2018/08/13-11:07:44.946 2cbc Level-0 table #169: 1951708 bytes OK
+2018/08/13-11:07:45.019 2cbc Delete type=0 #163
+2018/08/13-11:07:45.020 2cbc Delete type=3 #161
+2018/08/13-11:07:45.999 1bf4 Compacting 1@0 + 1@1 files
+2018/08/13-11:07:46.083 1bf4 Generated table #171: 195 keys, 52329 bytes
+2018/08/13-11:07:46.157 1bf4 Generated table #172: 101 keys, 114558 bytes
+2018/08/13-11:07:46.158 1bf4 Compacted 1@0 + 1@1 files => 166887 bytes
+2018/08/13-11:07:46.210 1bf4 Delete type=2 #164
+2018/08/13-11:07:46.210 1bf4 Delete type=2 #169
+2018/08/13-11:07:46.211 1bf4 compacted to: files[ 0 2 32 0 0 0 0 ]
+2018/08/13-14:55:55.277 1bf4 Compacting 1@1 + 2@2 files
+2018/08/13-14:55:55.626 1bf4 Generated table #173: 2339 keys, 2161993 bytes
+2018/08/13-14:55:55.668 1bf4 Generated table #174: 87 keys, 55355 bytes
+2018/08/13-14:55:55.668 1bf4 Compacted 1@1 + 2@2 files => 2217348 bytes
+2018/08/13-14:55:55.694 1bf4 Delete type=2 #166
+2018/08/13-14:55:55.694 1bf4 Delete type=2 #167
+2018/08/13-14:55:55.695 1bf4 Delete type=2 #172
+2018/08/13-14:55:55.696 1bf4 compacted to: files[ 0 1 32 0 0 0 0 ]

@@ -1,0 +1,88 @@
+2018/08/16-08:27:40.693 4bbc Recovering log #170
+2018/08/16-08:27:40.711 4bbc Level-0 table #176: started
+2018/08/16-08:27:40.793 4bbc Level-0 table #176: 100951 bytes OK
+2018/08/16-08:27:40.900 4bbc Delete type=0 #170
+2018/08/16-08:27:40.900 4bbc Delete type=3 #168
+2018/08/16-08:27:41.985 54fc Compacting 1@0 + 1@1 files
+2018/08/16-08:27:42.052 54fc Generated table #178: 195 keys, 52493 bytes
+2018/08/16-08:27:42.090 54fc Generated table #179: 84 keys, 29242 bytes
+2018/08/16-08:27:42.090 54fc Compacted 1@0 + 1@1 files => 81735 bytes
+2018/08/16-08:27:42.120 54fc Delete type=2 #171
+2018/08/16-08:27:42.121 54fc Delete type=2 #176
+2018/08/16-08:27:42.122 54fc compacted to: files[ 0 2 32 0 0 0 0 ]
+2018/08/16-08:27:43.386 54fc Compacting 1@1 + 1@2 files
+2018/08/16-08:27:43.789 54fc Generated table #180: 5406 keys, 2152968 bytes
+2018/08/16-08:27:43.789 54fc Compacted 1@1 + 1@2 files => 2152968 bytes
+2018/08/16-08:27:43.837 54fc Delete type=2 #154
+2018/08/16-08:27:43.838 54fc Delete type=2 #178
+2018/08/16-08:27:43.838 54fc compacted to: files[ 0 1 32 0 0 0 0 ]
+2018/08/16-10:29:37.623 54fc Compacting 1@1 + 2@2 files
+2018/08/16-10:29:38.225 54fc Generated table #181: 2339 keys, 2162013 bytes
+2018/08/16-10:29:38.286 54fc Generated table #182: 87 keys, 55387 bytes
+2018/08/16-10:29:38.286 54fc Compacted 1@1 + 2@2 files => 2217400 bytes
+2018/08/16-10:29:38.325 54fc Delete type=2 #173
+2018/08/16-10:29:38.326 54fc Delete type=2 #174
+2018/08/16-10:29:38.327 54fc Delete type=2 #179
+2018/08/16-10:29:38.327 54fc compacted to: files[ 0 0 32 0 0 0 0 ]
+2018/08/16-11:13:00.522 54fc Level-0 table #184: started
+2018/08/16-11:13:00.914 54fc Level-0 table #184: 3741980 bytes OK
+2018/08/16-11:13:00.928 54fc Delete type=0 #177
+2018/08/16-11:29:36.945 54fc Compacting 1@0 + 0@1 files
+2018/08/16-11:29:37.103 54fc Generated table #185: 445 keys, 123255 bytes
+2018/08/16-11:29:37.219 54fc Generated table #186: 1145 keys, 572608 bytes
+2018/08/16-11:29:37.219 54fc Compacted 1@0 + 0@1 files => 695863 bytes
+2018/08/16-11:29:37.271 54fc Delete type=2 #184
+2018/08/16-11:29:37.272 54fc compacted to: files[ 0 2 32 0 0 0 0 ]
+2018/08/16-11:34:55.505 54fc Level-0 table #188: started
+2018/08/16-11:34:55.974 54fc Level-0 table #188: 3720217 bytes OK
+2018/08/16-11:34:55.988 54fc Delete type=0 #183
+2018/08/16-14:04:36.750 54fc Level-0 table #190: started
+2018/08/16-14:04:37.144 54fc Level-0 table #190: 3864654 bytes OK
+2018/08/16-14:04:37.158 54fc Delete type=0 #187
+2018/08/16-16:15:32.306 54fc Level-0 table #192: started
+2018/08/16-16:15:33.204 54fc Level-0 table #192: 3825117 bytes OK
+2018/08/16-16:15:33.229 54fc Delete type=0 #189
+2018/08/16-16:26:49.037 54fc Level-0 table #194: started
+2018/08/16-16:26:49.466 54fc Level-0 table #194: 3925672 bytes OK
+2018/08/16-16:26:49.485 54fc Delete type=0 #191
+2018/08/16-16:26:49.486 54fc Compacting 4@0 + 2@1 files
+2018/08/16-16:26:49.526 54fc Generated table #195: 450 keys, 128175 bytes
+2018/08/16-16:26:49.617 54fc Generated table #196: 1210 keys, 668490 bytes
+2018/08/16-16:26:49.617 54fc Compacted 4@0 + 2@1 files => 796665 bytes
+2018/08/16-16:26:49.659 54fc Delete type=2 #185
+2018/08/16-16:26:49.660 54fc Delete type=2 #186
+2018/08/16-16:26:49.661 54fc Delete type=2 #188
+2018/08/16-16:26:49.662 54fc Delete type=2 #190
+2018/08/16-16:26:49.663 54fc Delete type=2 #192
+2018/08/16-16:26:49.664 54fc Delete type=2 #194
+2018/08/16-16:26:49.665 54fc compacted to: files[ 0 2 32 0 0 0 0 ]
+2018/08/16-16:39:37.378 54fc Compacting 1@1 + 2@2 files
+2018/08/16-16:39:37.846 54fc Generated table #197: 2164 keys, 2185258 bytes
+2018/08/16-16:39:37.881 54fc Generated table #198: 471 keys, 248860 bytes
+2018/08/16-16:39:37.881 54fc Compacted 1@1 + 2@2 files => 2434118 bytes
+2018/08/16-16:39:37.909 54fc Delete type=2 #181
+2018/08/16-16:39:37.910 54fc Delete type=2 #182
+2018/08/16-16:39:37.910 54fc Delete type=2 #196
+2018/08/16-16:39:37.911 54fc compacted to: files[ 0 1 32 0 0 0 0 ]
+2018/08/16-16:47:33.608 54fc Level-0 table #200: started
+2018/08/16-16:47:34.063 54fc Level-0 table #200: 3879234 bytes OK
+2018/08/16-16:47:34.076 54fc Delete type=0 #193
+2018/08/17-10:49:10.774 54fc Level-0 table #202: started
+2018/08/17-10:49:11.368 54fc Level-0 table #202: 3445525 bytes OK
+2018/08/17-10:49:11.407 54fc Delete type=0 #199
+2018/08/17-10:52:59.289 54fc Compacting 2@0 + 1@1 files
+2018/08/17-10:52:59.442 54fc Generated table #203: 464 keys, 129131 bytes
+2018/08/17-10:52:59.491 54fc Generated table #204: 357 keys, 334532 bytes
+2018/08/17-10:52:59.491 54fc Compacted 2@0 + 1@1 files => 463663 bytes
+2018/08/17-10:52:59.548 54fc Delete type=2 #195
+2018/08/17-10:52:59.549 54fc Delete type=2 #200
+2018/08/17-10:52:59.550 54fc Delete type=2 #202
+2018/08/17-10:52:59.551 54fc compacted to: files[ 0 2 32 0 0 0 0 ]
+2018/08/17-10:53:16.205 54fc Compacting 1@1 + 2@2 files
+2018/08/17-10:53:16.821 54fc Generated table #205: 2169 keys, 2162994 bytes
+2018/08/17-10:53:16.976 54fc Generated table #206: 478 keys, 234936 bytes
+2018/08/17-10:53:16.976 54fc Compacted 1@1 + 2@2 files => 2397930 bytes
+2018/08/17-10:53:17.017 54fc Delete type=2 #197
+2018/08/17-10:53:17.017 54fc Delete type=2 #198
+2018/08/17-10:53:17.018 54fc Delete type=2 #204
+2018/08/17-10:53:17.019 54fc compacted to: files[ 0 1 32 0 0 0 0 ]
